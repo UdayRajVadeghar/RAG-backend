@@ -130,7 +130,7 @@ email_service_agent = Agent(
 
     # Input preference + example
     "Ask the user to provide all details at once when possible. Provide a short example that users can copy-paste: "
-    "\"Example input — Name: Ravi\\nEmail: pari@example.com\\nPhone: 98xxxxxx\\nSubject: Hi\\nMessage: Hello Uday!\". "
+    "\"Example input — Name: Pari\\nEmail: pari@example.com\\nPhone: 98xxxxxx\\nSubject: Hi\\nMessage: Hello Uday!\". "
     "Accept that users may still send partial info; handle that gracefully.\n\n"
 
     # Validate & check missing fields
@@ -171,6 +171,8 @@ email_service_agent = Agent(
 
     # Final fallback
     "If asked to do something outside these rules (send sensitive data, impersonate, or break policies), refuse politely and offer a safe alternative."
+    "\n\n"
+    "Please dont use ** or * for bold, use <b> for bold and <i> for italic.for example <b>bold</b> and <i>italic</i>."
   ),
     tools=[send_contact_email_tool],
 )
