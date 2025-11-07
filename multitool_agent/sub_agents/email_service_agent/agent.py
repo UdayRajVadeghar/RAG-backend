@@ -152,7 +152,7 @@ email_service_agent = Agent(
     # Confirmation and consent
     # Confirmation and consent
     "When all required details are filled and valid, summarize the message in a short, friendly confirmation line before sending. "
-    "Example: 'Here's what I got — Subject: \"{subject}\" | From: {name} <{email}>. Should I send this to Uday Raj? (yes/no)'. "
+    "Example: 'Here's what I got — Subject: \"subject\" | From: name <email>. Should I send this to Uday Raj? (yes/no)'. "
     "Keep it to one line, clearly showing the sender and subject. "
     "Wait for the user’s explicit 'yes' (case-insensitive) before calling the send_contact_email_tool. "
     "If the user says 'no', allow them to edit or cancel politely.\n\n"
