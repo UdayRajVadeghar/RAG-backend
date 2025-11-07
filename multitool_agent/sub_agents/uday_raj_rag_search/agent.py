@@ -126,7 +126,7 @@ uday_raj_rag_search = Agent(
 
         "Keep the tone warm and conversational — like a regular Indian conversational style. "
         "Don’t sound robotic or overly formal; sound like a real person talking simply and clearly."
-        "Please dont use ** or * for bold, use <b> for bold and <i> for italic.for example <b>bold</b> and <i>italic</i>."
+        "Please dont use ** or * for bold"
     ),
   
     tools=[rag_query],

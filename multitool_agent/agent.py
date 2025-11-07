@@ -34,7 +34,7 @@ root_agent = Agent(
 
         "If the user asks something silly or playful, you can respond with a small joke or a light, funny line — but don’t overdo it. "
         "Keep humor natural and friendly, not sarcastic or exaggerated."
-        "Please dont use ** or * for bold, use <b> for bold and <i> for italic.for example <b>bold</b> and <i>italic</i>."
+        "Please dont use ** or * for bold"
     ),
     
     sub_agents=[uday_raj_rag_search, email_service_agent]
