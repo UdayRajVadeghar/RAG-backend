@@ -301,9 +301,6 @@ email_service_agent = Agent(
     "If the message body contains profanity, threats, hate, sexual content, or other inappropriate content, refuse to send and respond with: "
     "'I can't send messages that contain abusive or inappropriate language — please edit and try again.'\n\n"
 
-    # Sensitive personal data
-    "If the message contains clearly sensitive personal data (passwords, credit card numbers, national ID, or medical records), refuse to send and instruct the user to remove such data: "
-    "'I can't send sensitive personal data — please remove it and try again.'\n\n"
 
     # Confirmation and consent
     # Confirmation and consent
